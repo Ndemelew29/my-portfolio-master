@@ -1,0 +1,647 @@
+{
+  box-sizing: border-box;
+}
+/* [ON THE BIG SCREEN] */
+/* HAMBURGER ICON */
+body{
+    overflow-x: hidden;
+}
+#menu
+{
+  background-color:#ffffff;
+}
+
+.starter-template {
+  padding:40px 15px;
+  text-align: center;
+}
+ul.navbar-nav { 
+  text-align:center;
+}
+ul.navbar-nav li 
+{
+  padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+  color:black!important;
+  font-size: 1.3em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:600;
+  transition: 0.4s ease;
+}
+.navbar-nav li a:hover
+{
+  color:#fff!important;
+  background-color:black!important;
+}
+.navbar-brand {
+  padding:10px 15px!important;
+}
+a.navbar-brand .fa-blog
+{
+  font-size:30px;
+  color: black;
+  transition:0.5s ease;
+}
+a.navbar-brand .fa-blog:hover
+{
+  color:#5c85d6;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black!important;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #333333!important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 996px;
+}
+.splash {
+background:url(/midterm_project/img/myback2.jpg) no-repeat fixed center bottom;
+background-size: cover;
+color: #fff;
+}
+
+.splash .container {
+  padding-top: 15vh; 
+  padding-bottom: 10vh;
+}
+
+.profile-image {
+  border-radius: 50%;
+  display: block;
+  max-height:250px;
+  max-width: 250px;
+  margin: 100px auto 1em;
+  width: 100%;
+  opacity: 0.85;
+}
+a:hover{
+text-decoration:none;
+}
+
+.skill-image {
+  border-radius: 50%;
+  display: block;
+  max-height:250px;
+  max-width: 250px;
+  margin: 0 auto 1em;
+  width: 10px;
+      
+}
+
+.splash h1 {
+  font-size:15px;
+  margin-bottom: .15em;
+  text-align: center;
+}
+
+.splash .lead, .splash .continue {
+  display: inline-block;
+  text-align: left;
+}
+h1.intro-text
+{
+  margin:0;
+  color:#ffffff;
+}
+h1.text-center
+{
+ margin-top:20px;
+
+}
+.front{
+text-align: center;
+font-size: 1em;
+color: #333333;
+}
+p.intro-text{
+color: #333;
+font-size:1.5em;
+border:0.5px solid;
+padding:20px; 
+width: 200px;
+height:100px;
+resize: both;
+overflow: auto;
+}
+p.intro-textb{
+position: absolute;
+width: 200px;
+height: 100px;
+border: 3px solid blue;
+margin-bottom: 20px;
+}
+p.intro-textc{
+position: absolute;
+right: 150px;  
+width: 200px;
+height:100px;
+border: 3px solid blue;
+}
+.img1{
+margin-top:5px;
+margin-bottom:60px;   
+}
+
+.name {
+color: #333333;
+font-size:2em;
+margin-left: 5%;
+margin-right:5%;
+}
+.splash .lead {
+  font-size:14px;
+  margin-bottom: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@keyframes blink
+  {
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+  }
+        @-webkit-keyframes blink
+        {
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink
+        {
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink
+        {
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink
+        {
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+/* code for animated blinking cursor */
+#typed-cursor
+{
+      opacity: 1;
+      font-size:25px;
+      color: #fff;
+      font-weight:50;
+      -webkit-animation: blink 1s infinite;
+      -moz-animation: blink 1s infinite;
+      -ms-animation: blink 1s infinite;
+      -o-animation: blink 1s infinite;
+      animation: blink 1s infinite;
+}
+
+.splash .continue {
+  font-size:2em;
+  display:block;
+}
+
+.splash .continue a {
+  border:2px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  width:40px;
+  height:40px;
+  font-size:30px;
+}
+.splash .continue a:hover {
+  background-color: rgba(255, 255, 255, .25);
+}
+#about,#portfolio,#contact,#skill
+{
+  padding-top:4em!important;
+}
+.me{
+    font-size:1em;
+}
+section h2 {
+    margin: 0;
+    font-size:2em;
+}
+section.success {
+    color: #fff;
+    background-color:#5c85d6;
+  padding: 2%;
+}
+
+section.success a
+{
+  color:black;
+  transition: 0.4s ease;
+}
+section.success a:hover {
+    outline: 0;
+    color: #fff;
+  border: 2px solid #fff;
+}
+.contact-button
+{
+  padding-bottom:2%;
+}
+hr.star-light,hr.star-portfolio {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 3px;
+    text-align: center;
+}
+
+hr.star-light:after,hr.star-portfolio:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.5em;
+}
+hr.star-light:after,hr.star-skill:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    margin-bottom: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+hr.star-portfolio {
+    border-color: black;
+    margin-bottom: 10px
+}
+hr.star-portfolio:after {
+    color: black;
+    background-color: #eee;
+
+}
+
+hr.star-skill {
+    border-color: black;
+    
+}
+hr.star-skill:after {
+    color: black;
+    background-color: #eee;
+    
+    
+}
+hr.star-light:after {
+    color: #fff;
+    background-color:#5c85d6;
+}
+p.content-text { font-size:20px; }
+
+
+.first_page{
+    color:#333333;
+    text-align: center;
+}
+
+.about2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    column-count:2;
+    column-gap:40px;
+    column-rule-style:solid;
+    column-rule-width:1px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:40px;  
+}
+.content{
+    font-size:1em;
+    color: #333333;
+    margin-left:5%;
+    margin-right:5%;   
+}
+
+/* Portfolio Section */
+.portfolio{
+    margin-top: 40px;
+}
+
+.portfolio ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    list-style: none;
+    padding: 0 100px;
+   
+}
+
+.portfolio ul li {
+    width: 200px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+}
+ .portfolio-content {
+    padding: 10px 20px;
+}
+
+ .portfolio-content p{
+    margin-top: 10px;
+     font-size: 0.8em;
+}
+
+.portfolio ul li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0 ,0.24);
+    transition: 0.7s
+    
+}
+.portfolio ul li img {
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+   
+@media screen and (max-width: 768px) {
+       .portfolio ul {
+/*        padding: 0 50px;*/
+    }
+}
+
+
+/*Resume Section*/
+div {
+  border-radius:5px;
+}
+
+#header {
+  height:30px;
+  width: 100%;
+ text-align: center;
+  z-index: 1;
+}
+
+
+.left {
+  height:1000px;
+  width:45px;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height:1000px;
+  width: 45px;
+  float: right;
+  position: inherit;
+}
+.right1{
+    float: right;
+    padding-left:10%;
+    
+}
+
+.docum {
+  display: inline-block;
+  margin-top:6px;
+  margin-left: 55px;
+  width: 75%;
+  height:1000px;
+}
+
+p,
+li {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float:left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.resu{
+    margin-left:10%;
+}
+
+/*
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .docum {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+*/
+
+/* Skills Section */
+
+.skill-card{
+    box-shadow: 0px 2px 5px #888888;
+    background: #eee;
+    border-radius:4px;
+    width:150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left:35%;
+
+}
+
+
+.fa-html5, .fa-css3-alt, .fa-js-square, .fa-wordpress{
+    font-size: 64px;}
+.text-center{
+
+}
+
+
+.skill-card:hover{
+	box-shadow: 0px 10px 10px #888888;
+  cursor: pointer
+}
+
+.skill-container-holder{
+	background: #eee;
+	padding-bottom: 20px;
+}
+
+
+.skill-card-holder{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.skill-img{
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+}
+
+.skill-img-desc{
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	color: #333333;
+	text-align: center;
+	padding: 5px;
+}
+
+/* ------ Contact Section -------*/
+
+.contact-me-container{
+padding:3%;
+margin-top:60px;
+background-color: #5c85d6;
+}
+.fa-user,.fa-at,.fa-phone
+{
+  color:black;
+}
+.submit-button{
+	margin-top: 5px;
+	margin-bottom: 10px;
+    
+}
+
+
+
+/* ========================
+Footer Section
+======================== */
+
+footer {
+  background-color:#333;
+  color:  #fff;
+  font-size: 1em;
+  text-align: center;
+  padding:3%;
+}
+a.tel,a.tel:hover
+{
+  text-decoration:none;
+  color:#fff;
+}
+a.social-button {
+background: #fff;
+font-size:20px;
+border-radius:50%;
+margin:5px;
+}
+.address-container{
+display: inline-block;
+margin: 0 auto;
+}
+a.link-facebook,a.link-twitter,a.link-linkedin,a.link-instagram
+{
+transition:0.4s ease;
+}
+a.link-twitter
+{
+  color:#5c85d6;
+}
+a.link-facebook
+{
+ color: #5c85d6;
+}
+a.link-linkedin
+{
+  color:#5c85d6;
+}
+a.link-instagram
+{
+  color:#5c85d6;
+}
+a.link-facebook:hover{
+background-color:#5c85d6;
+color: #fff;
+}
+
+a.link-twitter:hover{
+	background-color:#5c85d6;
+	color: #fff;
+}
+
+a.link-codepen:hover{
+	background-color: black;
+	color: #fff;
+}
+
+a.link-linkedin:hover{
+	background-color: #5c85d6;
+	color: #fff;
+}
+a.link-instagram:hover{
+	background-color: #5c85d6;
+	color: #fff;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: transparent!important;
+}
+a:hover {
+   text-decoration:none !important; 
+}
+
+h4.author
+{
+  letter-spacing:4px;
+}
+hr.footer-hr
+{
+  width:150px;
+}
+hr.copyright
+{
+  opacity:0.4;
+}
+
+.show-toggle {
+  display: block;
+}
+
+.close-toggle {
+  display: none;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #fff !important;
+}
+.resume{
+margin-top: 20px;
+font-size: 20px;
+    
+}
+.blog{
+list-style: none;
+margin-top:20px;
+font-size: 20px;
+}
